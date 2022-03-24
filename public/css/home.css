@@ -1,0 +1,54 @@
+body.home{
+    background-image: url('/images/bg-body.png');
+}
+
+.banner{
+    display: none;
+}
+
+.box_producto{
+    margin: 30px 0;
+}
+.producto{
+    width: 100%;
+}
+
+.box_imagen{
+    position: relative;
+}
+
+.producto_imagen{
+    width: 100%;
+}
+
+.producto_imagen_chiquito{
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+}
+
+.label{
+    background-color: rgba(0, 0,0,0.5);
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    position: absolute;
+    top: 45%;
+    left: 0px;
+}
+
+.producto h4{
+    margin: 10px 0;
+}
+
+.producto_boton{
+    background-color: var(--colorGrisOscuro);
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 0;
+    text-align: center;
+    width: 80px;
+}
