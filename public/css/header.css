@@ -35,3 +35,29 @@ header nav ul li{
 }
 
 
+@media(min-width: 460px){
+/* hay que poner los nombres de los selectores como lo hicimos con los anteriores porque si se lo cambiamos por mas que este bien colocado no se va a modificar */
+header button{
+    display: none;
+}
+
+header nav ul{
+    overflow: hidden;
+}
+header nav ul li{
+    width: 15.5%;
+    font-size: 0.6rem;
+    float: left;
+    margin-right: 1.16%;
+    }
+    .header nav ul li:last-child {
+        margin-right: 0;
+    }
+}
+
+@media(min-width:768px){
+    header nav ul li{
+        font-size: 1rem;
+    }
+}
+

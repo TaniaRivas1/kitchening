@@ -52,3 +52,35 @@ body.home{
     text-align: center;
     width: 80px;
 }
+
+/*tablet*/
+@media(min-width:460px){
+    /* banner*/
+    .banner{
+        display: block;
+        margin-top: 30px;
+    }
+    .banner img{
+        width: 100%;
+    }
+
+    /* producto*/
+
+    .box_producto{
+        overflow: hidden;
+    }
+
+    .producto{
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+    .producto:nth-child(even){
+        /* esto fue para que las cajitas del main entraran de a dos */
+        margin-right: 0%;
+    }
+}
+
+@media(){
+    
+}
